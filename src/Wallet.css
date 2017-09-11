@@ -1,0 +1,7 @@
+.wallet .jumbotron .btn-toolbar {
+    text-align: center;
+}
+
+.wallet #import {
+    display: none;
+}
