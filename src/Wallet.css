@@ -1,7 +1,19 @@
 .wallet .jumbotron .btn-toolbar {
-    text-align: center;
+    margin: 15px 0;
+}
+
+.wallet .jumbotron .btn-toolbar .btn {
+    float: none;
 }
 
 .wallet #import {
     display: none;
+}
+
+.wallet .actions .nav-body {
+    padding: 15px;   
+}
+
+.wallet .actions {
+    text-align: left;
 }

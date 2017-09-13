@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
 import logo from './ETHEREUM-ICON_Black.png';
 import './App.css';
 
@@ -13,11 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Ethjar Wallet</h2>
         </div>
-        <Row>
-          <Col sm={12}>
-            <Wallet></Wallet>
-          </Col>
-        </Row>
+        <Wallet></Wallet>
       </div>
     );
   }
