@@ -7,12 +7,12 @@ class Avatar extends Component {
         if (!this.props.address) {
             return;
         }
-        
+
         let canvas = this.refs.canvas;
         Blockies.render({
-            seed: this.props.address,
+            seed: this.props.address.toLowerCase(),
             size: 8,
-            scale: 16,
+            scale: this.props.scale || 16,
         }, canvas);
     }
 
@@ -20,9 +20,8 @@ class Avatar extends Component {
         if (!this.props.address) {
             return <div className="avatar placeholder"></div>
         }
-        
         return <div className="avatar">
-            <canvas ref="canvas" width={8*16} height={8*16} />
+            <canvas ref="canvas" />
         </div>
     }
 }

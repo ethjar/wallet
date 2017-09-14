@@ -11,9 +11,10 @@
 }
 
 .wallet .actions .nav-body {
-    padding: 15px;   
+    padding: 15px;
 }
 
 .wallet .actions {
     text-align: left;
+    min-height: 400px;
 }

@@ -1,0 +1,8 @@
+.QRAnchor {
+  position: relative;
+  display: inline;
+}
+
+.QRAnchor .popover {
+  margin: 20px;
+}
