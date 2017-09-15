@@ -266,7 +266,7 @@ class Actions extends Component {
                                 <HelpBlock>
                                     This must match the number of previous
                                     transactions created by this wallet.
-                                    You can verify the current number of transactions with <QRAnchor href={`https://etherscan.io/address/${address}`}>etherscan.io</QRAnchor>.
+                                    You can verify the current number of transactions with <QRAnchor href={`https://api.ethjar.store/v2/eth_getTransactionCount?data=${address}`}>Ethjar API</QRAnchor>.
                                 </HelpBlock>
                                 <FieldGroup
                                     id="txGas"
