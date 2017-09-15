@@ -7,6 +7,8 @@ Transactions will be published through the use of QR codes that is scanned with 
 
 Wallets can be saved and loaded in V3 format which is compatible with the official ethereum wallet.
 
+You can see a demo at https://ethjar.github.io
+
 ## Developing
 
 Install dependencies:
