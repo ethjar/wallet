@@ -195,7 +195,7 @@ class Actions extends Component {
 
     render() {
         const txQR = this.state.transaction
-            ? <QRCode size={200} value={this.state.transaction} />
+            ? <QRCode size={200} value={"https://api.ethjar.store/v2/eth_sendRawTransaction?data=" + this.state.transaction} />
             : <div className="placeholder"></div>;
         const address = `0x${this.props.wallet.getAddress().toString("hex")}`
         return (
